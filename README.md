@@ -1,14 +1,18 @@
 # Ping Meter Gadget
 
-It's a customizable and small ping (latency) meter, written in C# using WPF.
+It's a customizable and small ping (latency) meter, written in C# using Visual Studio 2015 and WPF.
+![Configuration](https://raw.githubusercontent.com/pzmarzly/PingMeterGadget/images/screenshot1.png)
+![Multiple instances](https://raw.githubusercontent.com/pzmarzly/PingMeterGadget/images/screenshot2.png)
 
 ## Features
 
-- small, transparent (customizable opacity), always-on-top window
+- customizable:
+  - always on top
+  - window transparency
 - running in multiple instances
 - configuration autosaving
 - selecting host by hostname or IP
-- some nice configuration options
+- configuration tool
 
 ## License
 
