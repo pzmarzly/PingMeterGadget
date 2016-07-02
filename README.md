@@ -10,7 +10,7 @@ It's a customizable and small ping (latency) meter, written in C# using Visual S
   - always on top
   - window transparency
 - running in multiple instances
-- configuration autosaving
+- configuration autosaving to %AppData%\Ping Meter
 - selecting host by hostname or IP
 - configuration tool
 
@@ -18,6 +18,6 @@ It's a customizable and small ping (latency) meter, written in C# using Visual S
 
 Licensed under MIT license. Feel free to fork, contribute and reuse code.
 
-## Downloading
+## [Downloading](https://github.com/pzmarzly/PingMeterGadget/releases)
 
-[.NET Framework 4.5.2](https://www.microsoft.com/en-us/download/details.aspx?id=42642) is required. Download this application from repository releases.
+[.NET Framework 4.5.2](https://www.microsoft.com/en-us/download/details.aspx?id=42642) is required. [Download application now](https://github.com/pzmarzly/PingMeterGadget/releases)
