@@ -1,0 +1,36 @@
+﻿<Window x:Class="PingMeterGadget.CfgDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PingMeterGadget"
+        mc:Ignorable="d"
+        Title="Configuration - Ping Meter" Icon="icon.ico"
+        Height="400" Width="300" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="Server:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="s_favServer" HorizontalAlignment="Right" Height="23" Margin="0,13,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175"/>
+        <CheckBox x:Name="s_eachTime" Content="Open configuration on every launch" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="s_escape" Content="ESC key closes current window" HorizontalAlignment="Left" Margin="10,61,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="s_instanceId" Content="Show instance number" HorizontalAlignment="Left" Margin="10,81,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="s_rememberPos" Content="Save window position on exit" HorizontalAlignment="Left" Margin="10,101,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="s_onTop" Content="Stay on top" HorizontalAlignment="Left" Margin="10,121,0,0" VerticalAlignment="Top"/>
+        <Label Content="Opacity (transparency) [1-100]:" HorizontalAlignment="Left" Margin="10,141,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="s_opacity" HorizontalAlignment="Right" Height="23" Margin="0,144,30,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="42"/>
+        <Label Content="%" HorizontalAlignment="Right" Margin="0,141,10,0" VerticalAlignment="Top"/>
+        <Label Content="Time between pings:" HorizontalAlignment="Left" Margin="10,172,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="s_timeNormal" HorizontalAlignment="Right" Height="23" Margin="0,175,35,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77"/>
+        <Label Content="ms" HorizontalAlignment="Right" Margin="0,172,10,0" VerticalAlignment="Top"/>
+        <Label Content="         during higher latency:" HorizontalAlignment="Left" Margin="10,203,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="s_timeHigh" HorizontalAlignment="Right" Height="23" Margin="0,206,35,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77"/>
+        <Label Content="ms" HorizontalAlignment="Right" Margin="0,203,10,0" VerticalAlignment="Top"/>
+
+        <TextBlock Margin="10,0,10,35" VerticalAlignment="Bottom" TextWrapping="WrapWithOverflow">
+            Tip: you can right-click the X button in the widget to quickly close all windows.
+            <LineBreak/>
+            (c) 2016 Paweł Zmarzły. Licensed under <Hyperlink NavigateUri="https://opensource.org/licenses/MIT" RequestNavigate="Hyperlink_RequestNavigate">MIT</Hyperlink>. Hosted on <Hyperlink NavigateUri="https://github.com/pzmarzly" RequestNavigate="Hyperlink_RequestNavigate">GitHub</Hyperlink>.
+        </TextBlock>
+        <Button x:Name="btn_save" Content="Save" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="75" IsDefault="True"/>
+        <Button x:Name="btn_cancel" Content="Cancel" HorizontalAlignment="Right" Margin="0,0,90,10" VerticalAlignment="Bottom" Width="75" IsCancel="True"/>
+    </Grid>
+</Window>
