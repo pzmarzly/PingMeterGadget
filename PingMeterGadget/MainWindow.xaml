@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Ping Meter" Height="80" Width="80" Icon="icon.ico"
         Focusable="False" Opacity="0.5" AllowsTransparency="True" WindowStyle="None" ResizeMode="NoResize"
-        MouseDown="Window_MouseDown">
+        MouseDown="Window_MouseDown" ShowInTaskbar="False">
     <Grid>
         <Button x:Name="c_settingsbtn" HorizontalAlignment="Left" VerticalAlignment="Top" Content="⚙" Margin="0" Width="20" Height="20"/>
         <Button x:Name="c_closebtn" HorizontalAlignment="Right" VerticalAlignment="Top" Content="X" Margin="0" Width="20" Height="20">
