@@ -1,5 +1,3 @@
-# Important note: doesn't work with Win10 Anniversary Update
-
 # Ping Meter Gadget
 
 It's a customizable and small ping (latency) meter, written in C# using Visual Studio 2015 and WPF.
