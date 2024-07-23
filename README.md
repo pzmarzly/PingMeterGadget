@@ -1,7 +1,9 @@
 # Ping Meter Gadget
 
 It's a customizable and small ping (latency) meter, written in C# using Visual Studio 2015 and WPF.
+
 ![Configuration](https://raw.githubusercontent.com/pzmarzly/PingMeterGadget/images/screenshot1.png)
+
 ![Multiple instances](https://raw.githubusercontent.com/pzmarzly/PingMeterGadget/images/screenshot2.png)
 
 ## Features
@@ -18,6 +20,6 @@ It's a customizable and small ping (latency) meter, written in C# using Visual S
 
 Licensed under MIT license. Feel free to fork, contribute and reuse code.
 
-## [Downloading](https://github.com/pzmarzly/PingMeterGadget/releases)
+## Downloading
 
 [.NET Framework 4.5.2](https://www.microsoft.com/en-us/download/details.aspx?id=42642) is required. [Download application now](https://github.com/pzmarzly/PingMeterGadget/releases)
